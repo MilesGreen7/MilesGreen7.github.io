@@ -301,10 +301,6 @@ nav ul li {
   cursor: pointer;
 }
 
-.slide-right {
-  animation: 3s slide-right;
-}
-
 .up-arrow {
   width: 3rem;
   height: 3rem;
