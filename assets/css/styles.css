@@ -420,10 +420,8 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 37.5rem;
+    height: 1.5rem;
     width: 23rem;
-    padding-bottom: 3rem;
-    padding-top: 0rem;
   }
 
   .bio {
@@ -436,10 +434,5 @@ footer {
 
   .contact-form-container {
     max-width: 17.75rem;
-  }
-
-  .project-card {
-    max-height: 21rem;
-    min-height: 21rem;
   }
 }
