@@ -184,7 +184,6 @@ nav ul li {
   width: 65%;
   height: 60%;
   padding-bottom: 1rem;
-  padding-top: 1.7vh;
 }
 
 .projects-container {
@@ -235,6 +234,35 @@ nav ul li {
   padding: 0.938rem;
   border-radius: 5px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
+}
+
+.contact-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 40.75rem;
+  margin: 0 auto;
+  padding: 0.938rem;
+}
+
+.contact-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+  max-height: 22rem;
+  min-height: 22rem;
+  min-width: 14rem;
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+
+.contact-icon {
+  height: 50%;
+  width: 50%;
+  padding-bottom: 2vh;
 }
 
 .contact-form-container label {
@@ -337,9 +365,6 @@ footer {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
-  max-height: 22rem;
-  min-height: 22rem;
-  min-width: 14rem;
 }
 
 /* Media queries for responsiveness */
@@ -441,9 +466,5 @@ footer {
 
   .contact-form-container {
     max-width: 17.75rem;
-  }
-
-  #autocorrect {
-    padding-top: 5vh;
   }
 }
