@@ -221,7 +221,7 @@ nav ul li {
 /* Contacts section */
 .contact {
   margin-top: 2rem;
-  scroll-margin-top: 13vh;
+  scroll-margin-top: 12vh;
 }
 
 .contact h2 {
@@ -472,5 +472,9 @@ footer {
 
   .contact-form-container {
     max-width: 17.75rem;
+  }
+
+  .contact {
+    scroll-margin-top: 15vh;
   }
 }
