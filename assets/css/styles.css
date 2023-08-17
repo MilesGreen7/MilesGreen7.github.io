@@ -251,12 +251,10 @@ nav ul li {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
-  max-height: 22rem;
-  min-height: 22rem;
-  min-width: 14rem;
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
+  font-size: 1.1rem;
 }
 
 .contact-icon {
@@ -397,7 +395,6 @@ footer {
   }
 
   .hero {
-  
     flex-direction: column;
     gap: 0;
   }
@@ -437,6 +434,15 @@ footer {
   .project-container {
     width: 20.875rem;
   }
+  .contact-icon {
+    width: 25%;
+    height:25%;
+  }
+
+  .contact-card-container {
+    flex-direction: column;
+    max-width: 23.75rem;
+  }
 
   .contact-form-container {
     max-width: 23.75rem;
@@ -457,6 +463,10 @@ footer {
 
   .project-container {
     width: 17.875rem;
+  }
+
+  .contact-card-container {
+    max-width: 17.75rem;
   }
 
   .contact-form-container {
