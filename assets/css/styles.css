@@ -379,6 +379,7 @@ footer {
   .hero img {
     height: 37.5rem;
     width: 30rem;
+    margin-top: -3rem;
   }
 
   .bio {
