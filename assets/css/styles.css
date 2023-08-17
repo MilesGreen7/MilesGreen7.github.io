@@ -155,7 +155,7 @@ nav ul li {
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
-  scroll-margin-top: 12vh;
+  scroll-margin-top: 13vh;
 }
 
 .skill-header {
@@ -184,7 +184,7 @@ nav ul li {
   width: 65%;
   height: 60%;
   padding-bottom: 1rem;
-  padding-top: 4vh;
+  padding-top: 1.7vh;
 }
 
 .projects-container {
@@ -336,8 +336,8 @@ footer {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
-  max-height: 24rem;
-  min-height: 24rem;
+  max-height: 22rem;
+  min-height: 22rem;
   min-width: 14rem;
 }
 
