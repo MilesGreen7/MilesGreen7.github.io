@@ -379,11 +379,9 @@ footer {
   .hero img {
     height: 37.5rem;
     width: 30rem;
-    padding-bottom: 9rem;
   }
 
   .bio {
-    margin-top: -7rem;
     width: 20.5rem;
   }
 
@@ -422,7 +420,6 @@ footer {
   .hero img {
     height: 37.5rem;
     width: 23rem;
-    padding-bottom: 3rem;
   }
 
   .bio {
