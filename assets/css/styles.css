@@ -420,12 +420,12 @@ footer {
   .hero img {
     height: 37.5rem;
     width: 23rem;
-    margin-top: -5rem;
+    margin-top: -7rem;
   }
 
   .bio {
     width: 18.3rem;
-    margin-top: -6rem;
+    margin-top: -7rem;
   }
 
   .project-container {
@@ -433,8 +433,8 @@ footer {
   }
 
   .project-card {
-    max-height: 21rem;
-    min-height: 21rem;
+    max-height: 22rem;
+    min-height: 22rem;
   }
 
   .contact-form-container {
