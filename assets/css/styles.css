@@ -435,4 +435,9 @@ footer {
   .contact-form-container {
     max-width: 17.75rem;
   }
+
+  .project-card {
+    max-height: 19rem;
+    min-height: 19rem;
+  }
 }
