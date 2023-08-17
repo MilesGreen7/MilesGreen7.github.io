@@ -474,6 +474,14 @@ footer {
     max-width: 17.75rem;
   }
 
+  .skills {
+    scroll-margin-top: 15vh;
+  }
+
+  .projects {
+    scroll-margin-top: 12vh;
+  }
+
   .contact {
     scroll-margin-top: 15vh;
   }
