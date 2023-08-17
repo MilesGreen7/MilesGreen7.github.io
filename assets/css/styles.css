@@ -342,7 +342,7 @@ footer {
 }
 
 /* Media queries for responsiveness */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 770px) {
   nav {
     padding: 1.5rem 1rem;
   }
@@ -371,7 +371,7 @@ footer {
   }
 
   .hero {
-    margin-top: -4rem;
+  
     flex-direction: column;
     gap: 0;
   }
@@ -379,6 +379,7 @@ footer {
   .hero img {
     height: 37.5rem;
     width: 30rem;
+    padding-bottom: 9rem;
   }
 
   .bio {
