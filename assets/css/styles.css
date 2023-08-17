@@ -184,6 +184,7 @@ nav ul li {
   width: 65%;
   height: 60%;
   padding-bottom: 1rem;
+  padding-top: 4vh;
 }
 
 .projects-container {
@@ -213,6 +214,7 @@ nav ul li {
 
 .project-details {
   margin-bottom: var(--bottom-margin);
+  padding-bottom: 2vh;
 }
 
 /* Projects section ends */
@@ -334,8 +336,9 @@ footer {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
-  max-height: 23rem;
-  min-height: 23rem;
+  max-height: 24rem;
+  min-height: 24rem;
+  min-width: 14rem;
 }
 
 /* Media queries for responsiveness */
