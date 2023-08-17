@@ -420,12 +420,12 @@ footer {
   .hero img {
     height: 37.5rem;
     width: 23rem;
-    margin-top: -7rem;
+    margin-top: -6rem;
   }
 
   .bio {
     width: 18.3rem;
-    margin-top: -7rem;
+    margin-top: -4rem;
   }
 
   .project-container {
@@ -439,5 +439,9 @@ footer {
 
   .contact-form-container {
     max-width: 17.75rem;
+  }
+
+  #autocorrect {
+    padding-top: 2.5vh;
   }
 }
