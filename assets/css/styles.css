@@ -425,11 +425,16 @@ footer {
 
   .bio {
     width: 18.3rem;
-    margin-top: -5rem;
+    margin-top: -6rem;
   }
 
   .project-container {
     width: 17.875rem;
+  }
+
+  .project-card {
+    max-height: 21rem;
+    min-height: 21rem;
   }
 
   .contact-form-container {
