@@ -420,11 +420,12 @@ footer {
   .hero img {
     height: 37.5rem;
     width: 23rem;
+    margin-top: -5rem;
   }
 
   .bio {
     width: 18.3rem;
-    margin-top: -7rem;
+    margin-top: -5rem;
   }
 
   .project-container {
