@@ -108,6 +108,7 @@ nav ul li {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  scroll-margin-top: -15vh;
 }
 
 .hero img {
@@ -399,6 +400,7 @@ footer {
   .hero {
     flex-direction: column;
     gap: 0;
+    scroll-margin-top: -52vh;
   }
 
   .hero img {
