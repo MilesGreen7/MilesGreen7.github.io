@@ -135,7 +135,7 @@ nav ul li {
 /* More about */
 .more-about {
   background-color: var(--bg-color);
-  padding: 1rem 6rem;
+  padding: 1rem 6vw;
 }
 
 .more-about h2 {
@@ -413,13 +413,12 @@ footer {
 
   .more-about {
     margin-top: 2rem;
-    padding: 1rem 3.5rem;
   }
 
   .more-about h2 {
     text-align: center;
   }
-  
+
   .icon {
     width: 5.875rem;
     height: 5.25rem;
