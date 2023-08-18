@@ -449,6 +449,9 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
+  .hero {
+    scroll-margin-top: -49vh;
+  }
   .hero img {
     height: 37.5rem;
     width: 23rem;
