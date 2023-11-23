@@ -109,12 +109,12 @@ nav ul li {
   max-width: 68.75rem;
   margin: auto;
   scroll-margin-top: -15vh;
+  padding-left: -15vw;
 }
 
 .hero img {
   height: 37.5rem;
   width: 37.5rem;
-  padding-left: -50vw;
 }
 
 .bio {
