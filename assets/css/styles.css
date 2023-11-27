@@ -104,11 +104,9 @@ nav ul li {
 .hero {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   gap: 2.5rem;
-  max-width: 68.75rem;
   margin: auto;
-  scroll-margin-top: -15vh;
 }
 
 .hero img {
@@ -116,11 +114,15 @@ nav ul li {
   width: 37.5rem;
 }
 
+.hero-img-container {
+  padding-left: 10rem;
+
+}
+
 .bio {
-  width: 25rem;
-  padding: 0.625rem;
-  border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  width: 45vw;
+  margin-top: -6vh;
+  
 }
 
 .bio h1 {
@@ -132,24 +134,6 @@ nav ul li {
   padding: 0.3rem 0;
 }
 /* Hero section ends */
-
-/* More about */
-.more-about {
-  background-color: var(--bg-color);
-  padding: 1rem 6vw;
-}
-
-.more-about h2 {
-  margin-bottom: var(--bottom-margin);
-  text-align: center;
-}
-
-.more-about p {
-  line-height: var(--line-height);
-  padding: 0.4rem;
-  text-align: left;
-}
-/* More about ends */
 
 /* Skills section */
 .skills {
@@ -369,6 +353,50 @@ footer {
 }
 
 /* Media queries for responsiveness */
+@media screen and (max-width: 1500px) {
+
+  .hero {
+    flex-direction: column;
+    justify-content: left;
+    gap: 0;
+    scroll-margin-top: -58vh;
+  }
+
+  .hero img {
+    height: 40rem;
+    width: 40rem;
+    margin-top: -3rem;
+  }
+  .hero-img-container {
+    padding-left: 0rem;
+
+  }
+
+  .bio {
+    width: 67vw;
+   
+  }
+  .bio h2 {
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .hero {
+    scroll-margin-top: -32vh;
+  }
+  .bio {
+    margin-top: -3rem;
+  }
+  .skills {
+    scroll-margin-top: 8vh;
+  }
+  .projects {
+    scroll-margin-top: 6vh;
+  }
+}
+
 @media screen and (max-width: 770px) {
   nav {
     padding: 1.5rem 1rem;
@@ -409,18 +437,6 @@ footer {
     margin-top: -3rem;
   }
 
-  .bio {
-    width: 20.5rem;
-  }
-
-  .more-about {
-    margin-top: 2rem;
-  }
-
-  .more-about h2 {
-    text-align: center;
-  }
-
   .icon {
     width: 5.875rem;
     height: 5.25rem;
@@ -450,17 +466,16 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero {
-    scroll-margin-top: -44vh;
+    scroll-margin-top: -21vh;
   }
   .hero img {
     height: 37.5rem;
-    width: 23rem;
-    margin-top: -6rem;
+    width: 20rem;
+    margin-top: -10rem;
   }
 
   .bio {
-    width: 18.3rem;
-    margin-top: -4rem;
+    margin-top: -9.5rem;
   }
 
   .project-container {
@@ -476,14 +491,14 @@ footer {
   }
 
   .skills {
-    scroll-margin-top: 19vh;
+    scroll-margin-top: 13vh;
   }
 
   .projects {
-    scroll-margin-top: 14vh;
+    scroll-margin-top: 10vh;
   }
 
   .contact {
-    scroll-margin-top: 19vh;
+    scroll-margin-top: 14vh;
   }
 }
