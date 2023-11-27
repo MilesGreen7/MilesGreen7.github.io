@@ -116,13 +116,10 @@ nav ul li {
 
 .hero-img-container {
   padding-left: 10rem;
-
 }
 
 .bio {
   width: 45vw;
-  margin-top: -6vh;
-  
 }
 
 .bio h1 {
@@ -137,7 +134,8 @@ nav ul li {
 
 /* Skills section */
 .skills {
-  max-width: 68.75rem;
+  background-color: var(--bg-color);
+  padding: 32px 0;
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
@@ -160,7 +158,6 @@ nav ul li {
 
 /* Projects section */
 .projects {
-  background-color: var(--bg-color);
   padding: 32px 0;
   margin-top: 2rem;
   scroll-margin-top: 9vh;
@@ -206,6 +203,8 @@ nav ul li {
 
 /* Contacts section */
 .contact {
+  background-color: var(--bg-color);
+  padding: 32px 0;
   margin-top: 2rem;
   scroll-margin-top: 12vh;
 }
@@ -330,8 +329,7 @@ nav ul li {
 footer {
   background-color: var(--bg-color);
   padding: 1.25rem;
-  text-align: center;
-  margin: 2rem 0 0;
+  text-align: center; 
 }
 /* Footer section ends */
 
@@ -369,12 +367,11 @@ footer {
   }
   .hero-img-container {
     padding-left: 0rem;
-
   }
 
   .bio {
     width: 67vw;
-   
+    margin-top: -6vh;
   }
   .bio h2 {
     text-align: center;
@@ -502,7 +499,7 @@ footer {
   .contact {
     scroll-margin-top: 14vh;
   }
-  
+
   .contact-form-container {
     max-width: 21.5rem;
   }
