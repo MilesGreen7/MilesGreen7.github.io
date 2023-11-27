@@ -30,300 +30,305 @@
   </head>
 
   <body>
-    <!-- Navbar -->
-    <nav>
-      <h1>MILES GREEN</h1>
-      <ul class="navigation">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-        <li><a href="https://github.com/MilesGreen7" class="nav-link" target="_blank">Github</a></li>
-        <li><a href="assets/Resume/Miles-Green-Resume.pdf" class="nav-link" target="_blank">Resume</a></li>
-      </ul>
-      <button class="burger-menu" id="burger-menu">
-        <ion-icon class="bars" name="menu-outline"></ion-icon>
-        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
-      </button>
-    </nav>
-    
-
-    <!-- Hero Section -->
-    <section class="hero" id="about">
-      <div class="hero-img-container">
-        <img
-          src="assets/images/frontdesign.svg"
-          alt="cpu"
-          loading="lazy"
-          class="hero-img"
-        />
-      </div>
+    <div id="loading">
+      Loading...
+    </div>
+    <div id="bodydiv">
+      <!-- Navbar -->
+      <nav>
+        <h1>MILES GREEN</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="https://github.com/MilesGreen7" class="nav-link" target="_blank">Github</a></li>
+          <li><a href="assets/Resume/Miles-Green-Resume.pdf" class="nav-link" target="_blank">Resume</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+          <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+        </button>
+      </nav>
       
-      <div class="bio">
-        <h2 class="bio-title">About Me</h2>
-        <p class="bio-text">
-          Hi! My name is Miles Green and I'm a recent Electrical Engineering and Computer Science graduate from UC Berkeley, looking to apply what I've learned in the tech industry.
-        </p>
-        <p class="bio-text">
-          The courses I've taken at UC Berkeley have immersed me in the world of technology, allowing me to hone my skills in designing, developing, and refining complex projects. Some of these courses include CS161 Computer Security, CS188 Artificial Intelligence, CS170 Efficient Algorithms and Intractable Problems, CS160 User Interface Design, and many others.
-        </p>
-        <p class="bio-text">
-          While at UC Berkeley, I had the privilege of collaborating with an exceptional faculty and staff whose contributions and research in computer science are immeasurable. I'm excited for the future and the advancements in technology to come and look forward to working with a team that shares my enthusiasm and goals for the future!
-        </p>
-        <p class="bio-text">
-          If you have any questions about the projects listed here on the website, on my Github, or other projects that I haven't shown, please don't hesitate to reach out to me by phone or email!
-        </p>
-      </div>
-    </section>
 
-    <!-- Skills section -->
-    <section class="skills" id="skills">
-      <h2 class="skill-header">My Skills</h2>
-
-      <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
+      <!-- Hero Section -->
+      <section class="hero" id="about">
+        <div class="hero-img-container">
           <img
-            src="assets/icons/python.svg"
-            alt="Python"
+            src="assets/images/frontdesign.svg"
+            alt="cpu"
             loading="lazy"
-            class="icon icon-card"
+            class="hero-img"
           />
-          <img
-            src="assets/icons/c.svg"
-            alt="C/C++"
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/Go.svg"
-            alt="Golang"
-            loading="lazy"
-            class="icon icon-card"
-          />
-        </div>
-
-        <div class="second-set animate__animated animate__pulse">
-          <img
-            src="assets/icons/java.svg"
-            alt="java"
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/js.svg"
-            alt="javascript"
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/git.svg"
-            alt="git"
-            loading="lazy"
-            class="icon icon-card"
-          />
-        </div>
-
-        <div class="third-set animate__animated animate__pulse">
-          <img
-            src="assets/icons/sql.svg"
-            alt="sql"
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/html.svg"
-            alt="html"
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/css.svg"
-            alt="css"
-            loading="lazy"
-            class="icon icon-card"
-          />
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects section -->
-    <section class="projects" id="projects">
-      <h2 class="projects-title">Some of my Projects</h2>
-      <div class="projects-container">
-        <div class="project-container project-card">
-          <img
-            src="assets/images/secure.png"
-            alt="encrypted file sharing"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">End-to-End Encrypted File Sharing</h3>
-          <p class="project-details">
-            A local end-to-end encrypted file sharing system that guarantees confidentiality, integrity, and authenticity of user data and shared data
-          </p>
-          <a href="https://github.com/MilesGreen7/End-to-End-Encrypted-File-Sharing-System" target="_blank" class="project-link">Github Repo</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/git.png"
-            alt="git branch diagram"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Git-Like Version Control System</h3>
-          <p class="project-details">
-            A local version control system that has similar functionality to Git, supporting commands like add, commit, init, status, and checkout
-          </p>
-          <a href="https://github.com/MilesGreen7/Gitlet" target="_blank" class="project-link">Github Repo</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/enigma.png"
-            alt="enigma diagram"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Enigma Simulator</h3>
-          <p class="project-details">
-            A project that mimics the behavior of the WWII cipher device known as the Enigma machine, used by the Germans to encode and decode secret messages
-          </p>
-          <a href="https://github.com/MilesGreen7/Enigma-Simulator" target="_blank" class="project-link">Github Repo</a>
         </div>
         
-      </div>
-      <div class="projects-container">
-        <div class="project-container project-card">
-          <img
-            src="assets/images/keyboard.jpg"
-            alt="keyboard"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Autocorrector</h3>
-          <p class="project-details">
-            A program that measures users' typing speed, accuracy, and provides autocorrecting features when the user makes mistakes
+        <div class="bio">
+          <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            Hi! My name is Miles Green and I'm a recent Electrical Engineering and Computer Science graduate from UC Berkeley, looking to apply what I've learned in the tech industry.
           </p>
-          <a href="https://github.com/MilesGreen7/Autocorrector" target="_blank" class="project-link">Github Repo</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/interpreter.png"
-            alt="terminal screen"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Scheme Interpreter</h3>
-          <p class="project-details">
-            An interpreter for a subset of the Scheme language. Created using Python, this project makes use of lexical and syntactical analysis
+          <p class="bio-text">
+            The courses I've taken at UC Berkeley have immersed me in the world of technology, allowing me to hone my skills in designing, developing, and refining complex projects. Some of these courses include CS161 Computer Security, CS188 Artificial Intelligence, CS170 Efficient Algorithms and Intractable Problems, CS160 User Interface Design, and many others.
           </p>
-          <a href="https://github.com/MilesGreen7/Scheme-Interpreter" target="_blank" class="project-link">Github Repo</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/night_train.png"
-            alt="night train art"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Recursive Art with Scheme</h3>
-          <p class="project-details">
-            This is a recursive drawing I created using the Scheme interpreter I built. Running the program shows how the drawing is created recursively in realtime
+          <p class="bio-text">
+            While at UC Berkeley, I had the privilege of collaborating with an exceptional faculty and staff whose contributions and research in computer science are immeasurable. I'm excited for the future and the advancements in technology to come and look forward to working with a team that shares my enthusiasm and goals for the future!
           </p>
-          <a href="https://github.com/MilesGreen7/RecursiveArt" target="_blank" class="project-link">Github Repo</a>
+          <p class="bio-text">
+            If you have any questions about the projects listed here on the website, on my Github, or other projects that I haven't shown, please don't hesitate to reach out to me by phone or email!
+          </p>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Contact section -->
-    <section class="contact" id="contact">
-      <h2>Get In Touch With Me</h2>
-      <div class="contact-card-container">
-        <div class="contact-card">
-          <img
-            src="assets/icons/email.svg"
-            alt="email-icon"
-            loading="lazy"
-            class="contact-icon"
-          />
-          <p>speedymg7@berkeley.edu</p>
-        </div>
-        <div class="contact-card">
-          <img
-            src="assets/icons/phone.svg"
-            alt="phone-icon"
-            loading="lazy"
-            class="contact-icon"
-          />
-          <p>(818) 671-8363</p>
-        </div>
-      </div>
-      <div class="contact-form-container">
-        <div class="contact-form">
-          <form action="https://formsubmit.co/f27401d000da904977343acbf9da92ba" method="POST">
+      <!-- Skills section -->
+      <section class="skills" id="skills">
+        <h2 class="skill-header">My Skills</h2>
 
-            <!-- Delete this line to enable captcha -->
-            <input type="hidden" name="_captcha" value="false"></input>
-
-            <div class="form-control">
-              <label for="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="sender-name"
-                placeholder="Enter Your Name"
-                class="input-field"
-                required
-              />
-            </div>
-            <div class="form-control">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="sender-email"
-                placeholder="Enter Your Email"
-                class="input-field"
-                required
-              />
-            </div>
-            <div class="form-control">
-              <label for="message">Message</label>
-              <textarea
-                id="message"
-                cols="60"
-                rows="10"
-                placeholder="Enter Your Message"
-                name="message"
-                class="input-field"
-                required
-              ></textarea>
-            </div>
-            <input
-              type="submit"
-              value="Submit"
-              id="submit-btn"
-              class="submit-btn"
+        <div class="skills-wrapper">
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/python.svg"
+              alt="Python"
+              loading="lazy"
+              class="icon icon-card"
             />
-          </form>
+            <img
+              src="assets/icons/c.svg"
+              alt="C/C++"
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/Go.svg"
+              alt="Golang"
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/java.svg"
+              alt="java"
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/js.svg"
+              alt="javascript"
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/git.svg"
+              alt="git"
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+
+          <div class="third-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/sql.svg"
+              alt="sql"
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/html.svg"
+              alt="html"
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/css.svg"
+              alt="css"
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Footer section -->
-    <footer>
-    </footer>
+      <!-- Projects section -->
+      <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Projects</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="assets/images/secure.png"
+              alt="encrypted file sharing"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">End-to-End Encrypted File Sharing</h3>
+            <p class="project-details">
+              A local end-to-end encrypted file sharing system that guarantees confidentiality, integrity, and authenticity of user data and shared data
+            </p>
+            <a href="https://github.com/MilesGreen7/End-to-End-Encrypted-File-Sharing-System" target="_blank" class="project-link">Github Repo</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assets/images/git.png"
+              alt="git branch diagram"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Git-Like Version Control System</h3>
+            <p class="project-details">
+              A local version control system that has similar functionality to Git, supporting commands like add, commit, init, status, and checkout
+            </p>
+            <a href="https://github.com/MilesGreen7/Gitlet" target="_blank" class="project-link">Github Repo</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assets/images/enigma.png"
+              alt="enigma diagram"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Enigma Simulator</h3>
+            <p class="project-details">
+              A project that mimics the behavior of the WWII cipher device known as the Enigma machine, used by the Germans to encode and decode secret messages
+            </p>
+            <a href="https://github.com/MilesGreen7/Enigma-Simulator" target="_blank" class="project-link">Github Repo</a>
+          </div>
+          
+        </div>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="assets/images/keyboard.jpg"
+              alt="keyboard"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Autocorrector</h3>
+            <p class="project-details">
+              A program that measures users' typing speed, accuracy, and provides autocorrecting features when the user makes mistakes
+            </p>
+            <a href="https://github.com/MilesGreen7/Autocorrector" target="_blank" class="project-link">Github Repo</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assets/images/interpreter.png"
+              alt="terminal screen"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Scheme Interpreter</h3>
+            <p class="project-details">
+              An interpreter for a subset of the Scheme language. Created using Python, this project makes use of lexical and syntactical analysis
+            </p>
+            <a href="https://github.com/MilesGreen7/Scheme-Interpreter" target="_blank" class="project-link">Github Repo</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assets/images/night_train.png"
+              alt="night train art"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Recursive Art with Scheme</h3>
+            <p class="project-details">
+              This is a recursive drawing I created using the Scheme interpreter I built. Running the program shows how the drawing is created recursively in realtime
+            </p>
+            <a href="https://github.com/MilesGreen7/RecursiveArt" target="_blank" class="project-link">Github Repo</a>
+          </div>
+        </div>
+      </section>
 
-    <!-- Website scripts -->
-    <script src="assets/js/app.js"></script>
+      <!-- Contact section -->
+      <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-card-container">
+          <div class="contact-card">
+            <img
+              src="assets/icons/email.svg"
+              alt="email-icon"
+              loading="lazy"
+              class="contact-icon"
+            />
+            <p>speedymg7@berkeley.edu</p>
+          </div>
+          <div class="contact-card">
+            <img
+              src="assets/icons/phone.svg"
+              alt="phone-icon"
+              loading="lazy"
+              class="contact-icon"
+            />
+            <p>(818) 671-8363</p>
+          </div>
+        </div>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formsubmit.co/f27401d000da904977343acbf9da92ba" method="POST">
 
-    <!-- Ion icons scripts -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+              <!-- Delete this line to enable captcha -->
+              <input type="hidden" name="_captcha" value="false"></input>
+
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer section -->
+      <footer>
+      </footer>
+
+      <!-- Website scripts -->
+      <script src="assets/js/app.js"></script>
+
+      <!-- Ion icons scripts -->
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+    </div>
   </body>
 </html>

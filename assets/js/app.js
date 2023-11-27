@@ -7,7 +7,8 @@ const nav = document.querySelector("nav");
 const navLink = document.querySelectorAll(".nav-link");
 
 window.onload = function() {
-  document.getElementById('body').style.visibility = 'visible';
+  document.getElementById('bodydiv').style.visibility = 'visible';
+  document.getElementById('loading').style.display = 'none';
 };
 
 // Hamburger menu function

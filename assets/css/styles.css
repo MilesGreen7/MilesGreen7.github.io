@@ -44,8 +44,11 @@ a:hover {
 }
 
 body {
-  visibility: "hidden";
   font-family: var(--font-family);
+}
+
+#bodydiv {
+  visibility: "hidden";
 }
 
 section {
