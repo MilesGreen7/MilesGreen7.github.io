@@ -502,4 +502,8 @@ footer {
   .contact {
     scroll-margin-top: 14vh;
   }
+  
+  .contact-form-container {
+    max-width: 21.5rem;
+  }
 }
