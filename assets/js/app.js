@@ -6,6 +6,10 @@ const nav = document.querySelector("nav");
 // Select nav links
 const navLink = document.querySelectorAll(".nav-link");
 
+window.onload = function() {
+  document.getElementById('body').style.visibility = 'visible';
+};
+
 // Hamburger menu function
 burger.addEventListener("click", () => {
   ul.classList.toggle("show");
